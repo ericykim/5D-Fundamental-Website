@@ -43,7 +43,7 @@ body, html {
   /* The image used */
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("frontBackground.JPG");
+    url("assets/frontBackground.JPG");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -52,10 +52,35 @@ body, html {
   background-size: cover;
 }
 
-.image {
-  margin: 100px;
+.heading {
+  position: center;
+  padding-top: 50px;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: center;
+  font-size: 30px;
+}
+
+.image-left {
   display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 25%;
+}
+
+.image-right {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
