@@ -4,7 +4,7 @@
 } */
 p {
   font-family: "Arial", Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 100px;
   position: relative;
   float: left;
   top: 40%;
@@ -15,7 +15,7 @@ p {
 
 h1 {
   font-family: "Arial", Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 30px;
   color: white;
   text-align: center;
   margin-top: 10px;
